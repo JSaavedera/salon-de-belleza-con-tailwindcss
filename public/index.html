@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+
+<div class="relative">
+
+  <!-- Presentacion -->
+<div style="visibility: visible;  transition: .5s all linear;" id="presen" class="w-full h-full -mt-64 gap-20 absolute flex flex-col place-content-center lg:gap-40 lg:-mt-24 md:gap-40 md:-mt-36 sm:-mt-36 sm:gap-40 ">
+  <div class="text-center p-4 font-semibold font-mono">
+      <p class="text-5xl text-opacity-50 sm:text-6xl lg:text-7xl xl:text-8xl text-white">Lista para lograr</p>
+  </div>
+  <div class=" text-center p-4 font-semibold font-mono">
+      <p class="text-5xl text-opacity-50 sm:text-6xl lg:text-7xl xl:text-8xl text-white">la mejor version de ti</p>
+  </div>
+</div>
+<!--Fin Presentacion -->
+
+    <div style="background-image: url('./fondomujer.jpg') ; height:700px; width: 1500px; " class="bg-cover bg-fixed bg-center z-auto max-h-full max-w-full "></div>
+  
+    <!-- Background de fondo -->
+    <div id="navBar" class="fixed top-0 w-full h-1/7 navOne ">
+      
+      <!-- contenedor items navbar -->
+      <nav class="flex p-3 lg:justify-start justify-between items-center ">
+          
+        <!-- Logo -->
+          <div class="logo ml-4 mr-2 w-14 justify-start ">
+              <img class=" rounded-full" src="logo.png">
+          </div>
+        <!-- Fin logo -->
+
+        <!-- Boton menu -->
+        <div class="md:hidden text-2xl">
+
+          <button class="animate-pulse">
+            <i class="fa-solid fa-bars text-white mr-4"></i>
+          </button>
+    
+        </div>
+        <!-- Fin boton menu -->
+
+            <!-- Links  -->
+              <div class="links md:block hidden w-1/6 md:w-4/6 ml-4">
+                  <ul class="flex items-center justify-start gap-5">
+                      <li><a class="link" href="">Inicio</a></li>
+                      <li><a class="link" href="">Nosotros</a></li>
+                      <li><a class="link" href="">Servicios</a></li>
+                      <li><a class="link" href="">Contacto</a></li>
+                  </ul>
+              </div>
+            <!-- Fin Links -->
+
+<!-- Iconos redes sociales -->
+              <div class="redes md:block hidden w-10 md:w-4/6 bg">
+                <ul class="flex items-center mr-4 justify-end gap-5 text-white">
+                    <li>
+                      <a href="#!">
+                        <i class="fab fa-facebook-f rounded-full p-2 text-white hover:text-blue-700 hover:bg-white  duration-700 bg-blue-700 w-8 text-center"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <i class="fab fa-twitter rounded-full p-2 text-white hover:text-cyan-500 hover:bg-white  duration-700 bg-cyan-500 w-8 text-center"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="" href="#!">
+                        <i class="fa-brands fa-instagram rounded-full p-2 text-white hover:text-pink-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-white hover:to-white duration-700 w-8 text-center"></i>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+<!--Fin Iconos redes sociales -->
+        
+      </nav>
+      <!--Fin contenedor items navbar -->
+  
+      <!-- Menu oculto -->
+
+  <div class="fixed top-14 w-full h-1/7 bg-gray-200 bg-opacity-10 backdrop-blur-sm md:hidden">
+    <ul id="hint" style="visibility: hidden; transition: .5s all linear;" class="p-3 mobile-links w-full absolute z-50 space-y-3 left-0 text-center  bg-gray-200 bg-opacity-10 backdrop-blur-sm mt-6">
+      <li><a class="link" href="">Inicio</a></li>
+      <li><a class="link" href="">Nosotros</a></li>
+      <li><a class="link" href="">Servicios</a></li>
+      <li><a class="link" href="">Contacto</a></li>
+      <ul class="flex items-center justify-center gap-5 p-3 text-white">
+        <li class="">
+            <a class="" href="#!">
+              <i class="fab fa-facebook-f rounded-full p-2 text-white  hover:text-blue-700 hover:bg-white  duration-700 bg-blue-700 w-8 text-center"></i>
+            </a>
+        </li>
+        <li class="">
+            <a class="" href="#!">
+              <i class="fab fa-twitter rounded-full p-2 text-white hover:text-cyan-500 hover:bg-white  duration-700 bg-cyan-500 w-8 text-center"></i>
+            </a>
+        </li>
+        <li class="">
+            <a class="" href="#!">
+              <i class="fa-brands fa-instagram rounded-full p-2 text-white hover:text-pink-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-white hover:to-white duration-700 w-8 text-center"></i>
+            </a>
+        </li>
+      </ul>
+    </ul>         
+  </div>
+
+<!-- Fin menu oculto -->
+
+
+
+</div>
+
+
+
+
+
+
+<section>
+  
+  <div class="">
+    <p class=" text-xl text-black">Lorem ipsum ffd dolor sit amet consectetur adipisicing elit. Dolorem, numquam! Maiores hic unde in sit distinctio vel vero numquam culpa, suscipit voluptas! Corporis exercitationem sit, voluptatibus in, possimus nemo repudiandae temporibus omnis error porro doloremque quia aliquid, dolores fugit id! Pariatur similique animi placeat exercitationem illum minus consequatur? Quisquam, itaque.
+    </p>
+    <p>hola mundo</p>
+  </div>
+  
+</section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+<section>
+  
+  <div class="">
+    <p class=" text-xl text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, numquam! Maiores hic unde in sit distinctio vel vero numquam culpa, suscipit voluptas! Corporis exercitationem sit, voluptatibus in, possimus nemo repudiandae temporibus omnis error porro doloremque quia aliquid, dolores fugit id! Pariatur similique animi placeat exercitationem illum minus consequatur? Quisquam, itaque.
+    </p>
+  </div>
+  
+</section> -->
+
+
+
+
+
+     <script src="JS.js"></script> 
+
+</body>
+</html>
